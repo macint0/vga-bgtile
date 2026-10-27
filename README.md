@@ -5,18 +5,25 @@ A scrolling tile background in Verilog for the
 background layers of the 8-bit NES and 16-bit SNES picture processors.
 640×480 @ 60 Hz, 25 MHz pixel clock, RGB222.
 
-![Day](docs/bgtile-day.png)
-![Night with snow](docs/bgtile-night.png)
+**▶ [Open it in the VGA Playground](https://vga-playground.com/?repo=https://github.com/macint0/vga-bgtile)**
+
+## Demo (20 s)
+
+![Background Tile demo](docs/bgtile-demo.gif)
+
+Recorded from the playground simulation, one frame per simulated frame. It shows
+the parallax scroll, running, the wave, mosaic, screen shake, the day/night
+fade and snow. Full-resolution 60 fps version:
+[docs/bgtile-demo.mp4](docs/bgtile-demo.mp4)
+
+| Day | Night with snow |
+| --- | --- |
+| ![Day](docs/bgtile-day.png) | ![Night with snow](docs/bgtile-night.png) |
 
 ## Running it
 
-```bash
-npm install
-npm start
-```
-
-Open `http://localhost:5173/?preset=bgtile`, then click the gamepad icon under
-the screen to use the keyboard as a gamepad.
+Open the playground link above, then click the gamepad icon under the screen to
+use the keyboard as a gamepad.
 
 | Action                  | Gamepad    | Keyboard (gamepad mode) | ui_in switch |
 | ----------------------- | ---------- | ----------------------- | ------------ |
