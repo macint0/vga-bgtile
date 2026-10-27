@@ -1,0 +1,13 @@
+# Tiny Tapeout project information
+project:
+  title:        "Background Tile"
+  author:       "macint0"
+  description:  "Scrolling NES/SNES-style tile background with parallax and effects"
+  language:     "Verilog"
+  clock_hz:     25175000
+  tiles: "1x1"
+  top_module:  "tt_um_vga_example"
+  source_files:
+    - "project.v"
+    - "hvsync_generator.v"
+    - "gamepad_pmod.v"
