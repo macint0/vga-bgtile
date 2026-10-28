@@ -45,7 +45,8 @@ pixels of 256 tiles:
 - `mariobg256j.mem`: the 256×256 tileset image from the course repo
   (`pongsagon/teach_hw`), 16×16 tiles, 6-bit colour per pixel.
 - `map128.mem`: 128×30 tiles = 2048 px wide. Columns 0–79 are the course's
-  `map2.mem` level (with KMUTT spelled in blocks); columns 80–127 are new.
+  `map2.mem` level, with its block lettering changed to spell CHULA; columns
+  80–127 are new.
   Because the width is a power of two, the camera position simply wraps and
   the level loops forever.
 
